@@ -5,12 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 4.8rem 9.6rem;
-  color: #FFF;
   border-bottom: variables.$border;
 
-  span {
+  .title {
     font-family: 'Oswald', sans-serif;
     font-size: 2.4rem;
+    color: variables.$primary-color;
   }
 
   ul {
@@ -18,5 +18,17 @@
     gap: 4.8rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
+
+    li {
+
+      :hover {
+        color: variables.$secondary-color;
+      }
+
+      a {
+        transition: .3s;
+        color: variables.$primary-color;
+      }
+    }
   }
 }

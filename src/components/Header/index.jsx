@@ -3,11 +3,11 @@ import './index.scss';
 const Header = () => {
   return (
     <header id='header'>
-      <span>SaulDesign</span>
+      <a href="/" className='title'>SaulDesign</a>
       <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
   )
