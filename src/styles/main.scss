@@ -14,4 +14,9 @@ html {
 
 body {
   background-color: variables.$bg-color;
+  font-family: 'Poppins';
+}
+
+.text-color {
+  color: variables.$secondary-color;
 }

@@ -1,0 +1,28 @@
+@use '../../styles/variables.scss';
+
+#home {
+  padding: 20rem 9.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  .side-left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      color: variables.$primary-color;
+      font-size: 9.6rem;
+      text-transform: uppercase;
+      line-height: 10rem;
+      margin: 0 0 3rem 2rem;
+    }
+
+    .btn-actions {
+      display: flex;
+      gap: 2.4rem;
+      margin-left: 2rem;
+    }
+  }
+}
