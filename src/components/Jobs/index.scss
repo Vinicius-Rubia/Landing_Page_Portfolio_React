@@ -1,0 +1,32 @@
+@use '../../styles/variables.scss';
+
+#jobs {
+  background: url(../../img/doodle.svg);
+  padding: 15em 9em;
+  color: variables.$primary-color;
+
+  .filter-list {
+
+    ul {
+      margin: 2em 0;
+      display: flex;
+      gap: 1.6em;
+
+      li {
+        background: rgba(57, 62, 70, 0.5);
+        font-size: 1.8em;
+        font-weight: bold;
+        color: variables.$primary-color;
+        text-align: center;
+        padding: 0.5em 1.5em;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 2.4em;
+        cursor: pointer;
+        &#active {
+          background-color: variables.$secondary-color;
+        }
+      }
+    }
+
+  }
+}

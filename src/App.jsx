@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Jobs from "./components/Jobs";
 import arrow from "./img/icon_arrow.svg";
 
 import "./styles/app.scss";
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Jobs />
     </div>
   );
 }

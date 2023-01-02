@@ -16,7 +16,6 @@
 
   .side-left {
     width: 30%;
-    font-size: 1.8em;
     color: variables.$primary-color;
 
     div {
@@ -24,8 +23,8 @@
       gap: 2em;
     }
 
-    h2 {
-      font-size: 3em;
+    p {
+      font-size: 1.8em;
     }
 
     img {
