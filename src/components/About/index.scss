@@ -15,6 +15,11 @@
     transform: rotate(190deg);
   }
 
+  .music-illustration {
+    position: absolute;
+    top: -15%;
+  }
+
   .side-left {
     width: 30%;
     color: variables.$primary-color;

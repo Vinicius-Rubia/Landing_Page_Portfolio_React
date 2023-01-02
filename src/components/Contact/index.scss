@@ -1,12 +1,26 @@
 @use '../../styles/variables.scss';
 
 #contact {
-  padding: 25em 9em;
+  padding: 20em 9em 20em;
   display: flex;
+  border-bottom: variables.$border;
 
   .side-left,
   .side-right {
     color: variables.$primary-color;
     width: 50%;
+    position: relative;
+
+    .keyboard-illustration {
+      position: absolute;
+      left: 10%;
+      top: -30%;
+    }
+    
+    .mail-illustration {
+      position: absolute;
+      right: 10%;
+      bottom: -20%;
+    }
   }
 }

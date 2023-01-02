@@ -15,6 +15,12 @@ const Contact = () => {
         <img src={Illustration} alt="Illustration" />
       </div>
       <div className="side-right">
+        <img
+          className="keyboard-illustration"
+          src={Keyboard}
+          alt="Illustration"
+        />
+        <img className="mail-illustration" src={Mail} alt="Illustration" />
         <Form />
       </div>
     </section>

@@ -1,0 +1,48 @@
+@use '../../styles/variables.scss';
+
+#footer {
+  padding: 0 9em 3em;
+  margin-top: 10em;
+
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+
+    li {
+
+      a {
+        color: variables.$primary-color;
+        font-size: 1.5em;
+        display: flex;
+        gap: 1em;
+        align-items: center;
+      }
+    }
+  }
+
+  .social-media {
+    margin: 4em 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+    li {
+      display: flex;
+      border-radius: 100%;
+      background-color: variables.$bg-color-secondary;
+      padding: 1em;
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .copyright {
+    color: variables.$primary-color;
+    font-size: 1.5em;
+    text-align: end;
+  }
+}
