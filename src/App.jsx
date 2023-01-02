@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import arrow from "./img/icon_arrow.svg";
@@ -12,6 +13,7 @@ function App() {
       </a> */}
       <Header />
       <Home />
+      <About />
     </div>
   );
 }

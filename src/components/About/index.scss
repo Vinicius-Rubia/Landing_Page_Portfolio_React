@@ -1,0 +1,35 @@
+@use '../../styles/variables.scss';
+
+#about {
+  padding: 0 9em;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+
+  .arrow-illustration {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    transform: rotate(190deg);
+  }
+
+  .side-left {
+    width: 30%;
+    font-size: 1.8em;
+    color: variables.$primary-color;
+
+    div {
+      display: flex;
+      gap: 2em;
+    }
+
+    h2 {
+      font-size: 3em;
+    }
+
+    img {
+      width: 3em;
+    }
+  }
+}
