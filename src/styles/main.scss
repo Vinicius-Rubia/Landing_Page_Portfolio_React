@@ -6,12 +6,16 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  outline: none;
+  border: none;
 }
 
 body {
   font-size: 10px;
-  background-color: variables.$bg-color;
+  background-color: variables.$bg-color-primary;
   font-family: 'Poppins';
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .text-color {
@@ -20,4 +24,12 @@ body {
 
 h2 {
   font-size: 6em;
+}
+
+.border {
+  position: fixed;
+  border-left: variables.$border;
+  height: 100%;
+  left: 33%;
+  bottom: 0;
 }

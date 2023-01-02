@@ -1,11 +1,11 @@
-// @use './variables.scss';
+@use './variables.scss';
 
-// .container {
-//   .arrow {
-//     background-color: variables.$terciary-color;
-//     padding: 3rem 3.7rem;
-//     position: absolute;
-//     left: 32%;
-//     top: 100%;
-//   }
-// }
+.container {
+  .arrow {
+    background-color: variables.$terciary-color;
+    padding: 3em 4em;
+    position: absolute;
+    left: calc(33% - 50px);
+    top: calc(100% + 100px);
+  }
+}

@@ -1,0 +1,12 @@
+@use '../../styles/variables.scss';
+
+#contact {
+  padding: 25em 9em;
+  display: flex;
+
+  .side-left,
+  .side-right {
+    color: variables.$primary-color;
+    width: 50%;
+  }
+}

@@ -8,6 +8,7 @@ import "./index.scss";
 const Home = () => {
   return (
     <section id="home">
+      <hr className="border"></hr>
       <div className="side-left">
         <img className="illustrative" src={coiled_arrow} alt="Ilustration" />
         <div>

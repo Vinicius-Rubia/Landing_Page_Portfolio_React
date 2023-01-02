@@ -1,6 +1,7 @@
 @use '../../styles/variables.scss';
 
 #jobs {
+  margin-top: 12em;
   background: url(../../img/doodle.svg);
   padding: 15em 9em;
   color: variables.$primary-color;
