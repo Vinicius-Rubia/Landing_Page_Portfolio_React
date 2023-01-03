@@ -7,9 +7,6 @@
   align-items: center;
   padding: 4em 9em;
   border-bottom: variables.$border;
-  @include mixins.desktop-small {
-    padding: 4em 5em;
-  }
 
   .title {
     font-family: 'Oswald', sans-serif;
@@ -24,7 +21,6 @@
     font-size: 1.8em;
 
     li {
-
       :hover {
         color: variables.$secondary-color;
       }
@@ -34,5 +30,11 @@
         color: variables.$primary-color;
       }
     }
+  }
+}
+
+@media (max-width: 1300px) {
+  #header {
+    padding: 4em 5em;
   }
 }

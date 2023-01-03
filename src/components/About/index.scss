@@ -1,5 +1,4 @@
 @use '../../styles/variables.scss';
-@use '../../styles/mixins.scss';
 
 #about {
   padding: 0 9em 8em;
@@ -8,18 +7,12 @@
   align-items: start;
   position: relative;
   border-bottom: variables.$border;
-  @include mixins.desktop-small {
-    padding: 0 5em 8em;
-  }
 
   .arrow-illustration {
     position: absolute;
     bottom: 25%;
     left: 15%;
     transform: rotate(190deg);
-    @include mixins.desktop-small {
-      bottom: 5%;
-    }
   }
 
   .music-illustration {
@@ -30,9 +23,6 @@
   .side-left {
     width: 30%;
     color: variables.$primary-color;
-    @include mixins.desktop-small {
-      width: 50%;
-    }
 
     div {
       display: flex;
@@ -47,9 +37,21 @@
       width: 7em;
     }
   }
+}
 
-  .side-right {
-    @include mixins.desktop-small {
+@media (max-width: 1300px) {
+  #about {
+    padding: 0 5em 8em;
+
+    .arrow-illustration {
+      bottom: 5%;
+    }
+
+    .side-left {
+      width: 50%;
+    }
+
+    .side-right {
       width: 50%;
 
       img {

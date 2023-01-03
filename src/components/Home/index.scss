@@ -1,5 +1,4 @@
 @use '../../styles/variables.scss';
-@use '../../styles/mixins.scss';
 
 #home {
   padding: 20em 9em 0;
@@ -8,9 +7,6 @@
   justify-content: space-between;
   align-items: start;
   position: relative;
-  @include mixins.desktop-small {
-    padding: 20em 5em 0;
-  }
 
   .arrow {
     background-color: variables.$terciary-color;
@@ -40,10 +36,6 @@
       line-height: 1em;
       margin: 0 0 0.5em 0.3em;
 
-      @include mixins.desktop-small {
-        font-size: 6em;
-      }
-
     }
 
     .btn-actions {
@@ -55,5 +47,15 @@
 
   .side-right img {
     width: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  #home {
+    padding: 20em 5em 0;
+
+    .side-left h1 {
+      font-size: 6em;
+    }
   }
 }
