@@ -1,11 +1,35 @@
-@use './variables.scss';
+@use 'variables';
 
-.container {
-  .arrow {
-    background-color: variables.$terciary-color;
-    padding: 3em 4em;
-    position: absolute;
-    left: calc(33% - 50px);
-    top: calc(100% + 100px);
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-size: 10px;
+  background-color: variables.$bg-color-primary;
+  font-family: 'Poppins';
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.text-color {
+  color: variables.$secondary-color;
+}
+
+h2 {
+  font-size: 6em;
+}
+
+.border {
+  position: fixed;
+  border-left: variables.$border;
+  height: 100%;
+  left: 33%;
+  bottom: 0;
 }

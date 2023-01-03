@@ -2,13 +2,16 @@ import download from "../../img/icon_download.svg";
 import coiled_arrow from "../../img/coiled_arrow.svg";
 import illustrationHome from "../../img/img_illustrative.png";
 import Button from "../Button";
+import arrow from "../../img/icon_arrow.svg";
 
 import "./index.scss";
 
 const Home = () => {
   return (
     <section id="home">
-      <hr className="border"></hr>
+      <a href="#">
+        <img className="arrow" src={arrow} alt="Arrow" />
+      </a>
       <div className="side-left">
         <img className="illustrative" src={coiled_arrow} alt="Ilustration" />
         <div>
