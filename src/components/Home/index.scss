@@ -59,6 +59,7 @@
     }
   }
 }
+
 @media (max-width: 800px) {
   #home {
     padding: 10em 5em 0;
@@ -66,7 +67,7 @@
     .side-left {
       justify-content: center;
     }
-  
+
     .side-right {
       display: none;
     }
@@ -75,6 +76,29 @@
       padding: 2em 3em;
       left: calc(33% - 40px);
       top: 120%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #home {
+    padding: 10em 2em;
+    text-align: center;
+
+    .side-left {
+      img.illustrative {
+        display: none;
+      }
+
+      .btn-actions {
+        justify-content: center;
+      }
+    }
+
+    .arrow {
+      padding: 2em 3em;
+      left: calc(50% - 40px);
+      top: 100%;
     }
   }
 }

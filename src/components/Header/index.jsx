@@ -1,3 +1,7 @@
+import Home from "../../img/icon_home.svg";
+import Phone from "../../img/icon_phone.svg";
+import User from "../../img/icon_user.svg";
+
 import "./index.scss";
 
 const Header = () => {
@@ -7,15 +11,23 @@ const Header = () => {
         SaulDesign
       </a>
       <nav>
-        <ul>
+        <ul className="list-menu">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">
+              <img src={Home} alt="Home" /> Home
+            </a>
           </li>
           <li>
-            <a href="#about">About Me</a>
+            <a href="#about">
+              <img src={Phone} alt="About" />
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">
+              <img src={User} alt="Contact" />
+              Contact
+            </a>
           </li>
         </ul>
       </nav>

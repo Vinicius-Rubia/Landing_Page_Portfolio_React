@@ -10,6 +10,10 @@
   border: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 10px;
   background-color: variables.$bg-color-primary;
@@ -32,4 +36,17 @@ h2 {
   height: 100%;
   left: 33%;
   bottom: 0;
+}
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 5em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .border {
+    left: 50%;
+  }
 }

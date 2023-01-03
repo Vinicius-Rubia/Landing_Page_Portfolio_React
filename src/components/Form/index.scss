@@ -76,3 +76,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 500px) {
+  #form .form-input-box {
+    flex-direction: column;
+  }
+}

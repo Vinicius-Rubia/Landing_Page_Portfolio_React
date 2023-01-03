@@ -45,3 +45,15 @@
     align-items: center;
   }
 }
+
+@media (max-width: 500px) {
+  #jobs {
+    margin-top: 5em;
+    padding: 15em 3em;
+
+    .filter-list ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
