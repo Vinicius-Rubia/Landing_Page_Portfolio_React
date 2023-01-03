@@ -59,3 +59,22 @@
     }
   }
 }
+@media (max-width: 800px) {
+  #home {
+    padding: 10em 5em 0;
+
+    .side-left {
+      justify-content: center;
+    }
+  
+    .side-right {
+      display: none;
+    }
+
+    .arrow {
+      padding: 2em 3em;
+      left: calc(33% - 40px);
+      top: 120%;
+    }
+  }
+}

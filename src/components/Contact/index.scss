@@ -34,3 +34,31 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  #contact {
+    display: grid;
+
+    .side-left {
+      width: 100%;
+      
+      h2 {
+        font-size: 5em;
+        text-align: center;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    .side-right {
+      width: 100%;
+      margin-top: 2em;
+
+      .keyboard-illustration {
+        top: -40%;
+      }
+    }
+  }
+}

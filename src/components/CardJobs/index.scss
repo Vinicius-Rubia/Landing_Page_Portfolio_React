@@ -11,3 +11,14 @@
     border-radius: 1.6em;
   }
 }
+
+@media (max-width: 800px) {
+  #jobs-card {
+    gap: 2.8em;
+    justify-content: space-between;
+
+    .job {
+      padding: 3em;
+    }
+  }
+}

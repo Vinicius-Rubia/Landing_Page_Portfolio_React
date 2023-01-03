@@ -60,3 +60,19 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  #about {
+
+    .side-left {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .side-right {
+      display: none;
+    }
+  }
+}
