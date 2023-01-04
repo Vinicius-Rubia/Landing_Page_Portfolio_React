@@ -19,13 +19,13 @@ const Header = () => {
           </li>
           <li>
             <a href="#about">
-              <img src={Phone} alt="About" />
+              <img src={User} alt="About" />
               About Me
             </a>
           </li>
           <li>
             <a href="#contact">
-              <img src={User} alt="Contact" />
+              <img src={Phone} alt="Contact" />
               Contact
             </a>
           </li>

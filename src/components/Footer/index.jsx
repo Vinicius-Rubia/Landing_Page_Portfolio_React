@@ -19,12 +19,12 @@ const Footer = () => {
         </li>
         <li>
           <a href="#about">
-            <img src={Phone} alt="About me" /> About me
+            <img src={User} alt="About me" /> About me
           </a>
         </li>
         <li>
           <a href="#contact">
-            <img src={User} alt="Contact" /> Contact
+            <img src={Phone} alt="Contact" /> Contact
           </a>
         </li>
       </ul>

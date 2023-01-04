@@ -61,15 +61,23 @@
 
 @media (max-width: 800px) {
   #footer {
+    padding: 0 2em 3em;
+
     .copyright {
       text-align: center;
     }
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   #footer {
-    padding: 0 2em 3em;
+    .menu-footer {
+      display: none;
+    }
+
+    .copyright {
+      margin-bottom: 5em;
+    }
   }
 }
 
