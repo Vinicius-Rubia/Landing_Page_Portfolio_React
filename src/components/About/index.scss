@@ -82,3 +82,15 @@
     padding: 5em 2em 10em;
   }
 }
+
+@media (max-width: 400px) {
+  #about {
+    .side-left {
+      width: 100%;
+
+      img {
+        width: 5em;
+      }
+    }
+  }
+}

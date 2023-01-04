@@ -22,3 +22,11 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  #jobs-card {
+    .job {
+      width: 95%;
+    }
+  }
+}

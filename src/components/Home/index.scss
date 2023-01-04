@@ -102,3 +102,32 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  #home {
+    .side-left {
+      h1 {
+        font-size: 5em;
+      }
+
+      .btn-actions {
+        flex-direction: column;
+
+        .btn a {
+          width: 90%;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  #home {
+    .side-left {
+      h1 {
+        font-size: 4em;
+      }
+    }
+  }
+}
