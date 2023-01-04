@@ -14,6 +14,11 @@
     position: absolute;
     left: calc(33% - 50px);
     bottom: 0;
+    transition: .3s;
+
+    &:hover {
+      background-color: variables.$secondary-color;
+    }
   }
 
   .border {

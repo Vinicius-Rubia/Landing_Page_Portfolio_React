@@ -1,4 +1,3 @@
-import Button from "../Button";
 import Send from "./../../img/icon_send.svg";
 
 import "./index.scss";

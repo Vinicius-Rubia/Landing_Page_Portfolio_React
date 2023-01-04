@@ -10,14 +10,19 @@
     gap: 4em;
 
     li {
-
       a {
         color: variables.$primary-color;
         font-size: 1.5em;
         display: flex;
         gap: 1em;
         align-items: center;
+        transition: .3s;
+
+        &:hover {
+          color: variables.$secondary-color;
+        }
       }
+
     }
   }
 
@@ -32,6 +37,11 @@
       border-radius: 100%;
       background-color: variables.$bg-color-secondary;
       padding: 1em;
+      transition: .3s;
+
+      &:hover {
+        background-color: variables.$secondary-color;
+      }
 
       a {
         display: flex;

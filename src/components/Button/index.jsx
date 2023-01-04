@@ -1,6 +1,6 @@
 import "./index.scss";
 
-const Button = ({ text, bgColor, icon }) => {
+const Button = ({ text, bgColor, icon, href }) => {
   return (
     <div className="btn">
       {icon ? (
@@ -8,7 +8,7 @@ const Button = ({ text, bgColor, icon }) => {
           {text} <img src={icon} alt="ícone" />
         </a>
       ) : (
-        <a href="#" className={bgColor}>
+        <a href={`#${href}`} className={bgColor}>
           {text}
         </a>
       )}

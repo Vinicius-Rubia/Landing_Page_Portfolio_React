@@ -9,7 +9,7 @@ import "./index.scss";
 const Home = () => {
   return (
     <section id="home">
-      <a href="#">
+      <a href="#about">
         <img className="arrow" src={arrow} alt="Arrow" />
       </a>
       <div className="side-left">
@@ -20,7 +20,7 @@ const Home = () => {
             <span className="text-color">Designer</span>
           </h1>
           <div className="btn-actions">
-            <Button text="Hire me" bgColor="secondary-color" />
+            <Button text="Hire me" bgColor="secondary-color" href="contact" />
             <Button
               text="Download CV"
               bgColor="terciary-color"
