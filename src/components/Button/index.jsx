@@ -5,7 +5,7 @@ const Button = ({ text, bgColor, icon, href }) => {
     <div className="btn">
       {icon ? (
         <a href="#" className={bgColor}>
-          {text} <img src={icon} alt="ícone" />
+          {text} {icon}
         </a>
       ) : (
         <a href={`#${href}`} className={bgColor}>

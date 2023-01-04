@@ -18,7 +18,7 @@ body {
   font-size: 10px;
   background-color: variables.$bg-color-primary;
   font-family: 'Poppins';
-  max-width: 1500px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -39,15 +39,13 @@ h2 {
 }
 
 @media (max-width: 800px) {
+  .border {
+    left: 50%;
+  }
+
   h2 {
     font-size: 5em;
     text-align: center;
-  }
-}
-
-@media (max-width: 500px) {
-  .border {
-    left: 50%;
   }
 }
 

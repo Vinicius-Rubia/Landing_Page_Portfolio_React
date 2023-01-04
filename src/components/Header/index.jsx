@@ -1,6 +1,4 @@
-import Home from "../../img/icon_home.svg";
-import Phone from "../../img/icon_phone.svg";
-import User from "../../img/icon_user.svg";
+import { FiHome, FiPhone, FiUser } from "react-icons/fi";
 
 import "./index.scss";
 
@@ -14,18 +12,18 @@ const Header = () => {
         <ul className="list-menu">
           <li>
             <a href="#home">
-              <img src={Home} alt="Home" /> Home
+              <FiHome /> Home
             </a>
           </li>
           <li>
             <a href="#about">
-              <img src={User} alt="About" />
+              <FiUser />
               About Me
             </a>
           </li>
           <li>
             <a href="#contact">
-              <img src={Phone} alt="Contact" />
+              <FiPhone />
               Contact
             </a>
           </li>

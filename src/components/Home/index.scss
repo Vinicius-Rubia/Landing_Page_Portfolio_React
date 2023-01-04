@@ -1,4 +1,5 @@
 @use '../../styles/variables.scss';
+@use '../../styles/mixins.scss';
 
 #home {
   padding: 20em 9em 0;
@@ -8,16 +9,22 @@
   align-items: start;
   position: relative;
 
-  .arrow {
+  .arrow-down {
     background-color: variables.$terciary-color;
     padding: 3em 4em;
+    color: variables.$primary-color;
     position: absolute;
+    @include mixins.center;
     left: calc(33% - 50px);
     bottom: 0;
     transition: .3s;
 
     &:hover {
       background-color: variables.$secondary-color;
+    }
+
+    svg {
+      font-size: 3em;
     }
   }
 
@@ -31,8 +38,7 @@
 
   .side-left {
     width: 100%;
-    display: flex;
-    align-items: center;
+    @include mixins.center;
 
     h1 {
       color: variables.$primary-color;
@@ -40,7 +46,6 @@
       text-transform: uppercase;
       line-height: 1em;
       margin: 0 0 0.5em 0.3em;
-
     }
 
     .btn-actions {
@@ -52,6 +57,12 @@
 
   .side-right img {
     width: 100%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .border {
+    display: none;
   }
 }
 
@@ -77,9 +88,9 @@
       display: none;
     }
 
-    .arrow {
-      padding: 2em 3em;
-      left: calc(33% - 40px);
+    .arrow-down {
+      padding: 4em 3em;
+      left: calc(50% - 40px);
       top: 120%;
     }
   }
@@ -100,10 +111,8 @@
       }
     }
 
-    .arrow {
-      padding: 2em 3em;
-      left: calc(50% - 40px);
-      top: 100%;
+    .arrow-down {
+      top: 95%;
     }
   }
 }

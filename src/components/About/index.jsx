@@ -1,7 +1,7 @@
 import Music from "../../img/icon_music.svg";
 import Lamp from "../../img/icon_lamp.svg";
 import Arrow from "../../img/icon_arrow_2.svg";
-import Illustration from "../../img/img_illustrative_2.png";
+import Illustration from "../../img/img_illustrative_2.svg";
 
 import "./index.scss";
 

@@ -1,4 +1,4 @@
-import Send from "./../../img/icon_send.svg";
+import { FiSend } from "react-icons/fi";
 
 import "./index.scss";
 
@@ -29,7 +29,7 @@ const Form = () => {
       </div>
       <div className="btn-submit">
         <button type="submit">
-          Send Message <img src={Send} alt="" />
+          Send Message <FiSend />
         </button>
       </div>
     </form>

@@ -1,16 +1,16 @@
-import download from "../../img/icon_download.svg";
 import coiled_arrow from "../../img/coiled_arrow.svg";
-import illustrationHome from "../../img/img_illustrative.png";
+import illustrationHome from "../../img/img_illustrative_1.svg";
+import { FiDownload } from "react-icons/fi";
+import { BsArrowDown } from "react-icons/bs";
 import Button from "../Button";
-import arrow from "../../img/icon_arrow.svg";
 
 import "./index.scss";
 
 const Home = () => {
   return (
     <section id="home">
-      <a href="#about">
-        <img className="arrow" src={arrow} alt="Arrow" />
+      <a href="#about" className="arrow-down">
+        <BsArrowDown />
       </a>
       <div className="side-left">
         <img className="illustrative" src={coiled_arrow} alt="Ilustration" />
@@ -24,7 +24,7 @@ const Home = () => {
             <Button
               text="Download CV"
               bgColor="terciary-color"
-              icon={download}
+              icon={<FiDownload />}
             />
           </div>
         </div>

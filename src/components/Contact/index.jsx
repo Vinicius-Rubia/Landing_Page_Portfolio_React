@@ -1,6 +1,6 @@
 import Keyboard from "../../img/keyboard.svg";
 import Mail from "../../img/icon_mail.svg";
-import Illustration from "../../img/img_illustrative_3.png";
+import Illustration from "../../img/img_illustrative_3.svg";
 import Form from "../Form";
 
 import "./index.scss";

@@ -1,4 +1,5 @@
 @use '../../styles/variables.scss';
+@use '../../styles/mixins.scss';
 
 #jobs {
   margin-top: 12em;
@@ -45,16 +46,14 @@
 @media (max-width: 800px) {
   #jobs {
     padding: 15em 3em;
-    display: flex;
+    @include mixins.center;
     flex-direction: column;
-    align-items: center;
   }
 }
 
 @media (max-width: 500px) {
   #jobs {
     margin-top: 5em;
-    padding: 15em 3em;
 
     .filter-list ul {
       flex-wrap: wrap;
